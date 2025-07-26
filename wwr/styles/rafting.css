@@ -30,10 +30,10 @@ header a {
 
 body{
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #333;
 }
 p {
-    color: var(--secndary-color);
+    color: black;
 }
 header, main, footer {
     width: 840px;
@@ -42,7 +42,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: black;
 }
 
 nav, p, section, article {
@@ -72,7 +72,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: #333;
 }
 
 .hero article img {
@@ -89,7 +89,7 @@ h1 {
 }
 
 .hero article p {
-    color: var(--secndary-color);
+    color: #333;
 }
 
 header img {
@@ -150,7 +150,7 @@ header li {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-weight: bold;
-  color: var(--secndary-color);
+  color: black;
 }
 
 footer {
