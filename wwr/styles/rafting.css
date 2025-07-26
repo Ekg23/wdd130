@@ -32,7 +32,9 @@ body{
     font-family: var(--body-font);
     color: var(--accent1-color);
 }
-
+p {
+    color: var(--secndary-color);
+}
 header, main, footer {
     width: 840px;
     margin: 0 auto;
@@ -144,11 +146,11 @@ header li {
   
 }
 
-.adventures figcaption {
+.adventures-grid figcaption {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-weight: bold;
-  color: #003366;
+  color: var(--secndary-color);
 }
 
 footer {
