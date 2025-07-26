@@ -15,7 +15,11 @@
 
 header {
     background-color: var(--primary-color);
-    color: var(--accent2-color)
+    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+
 }
 
 header a {
@@ -84,4 +88,76 @@ h1 {
 
 .hero article p {
     color: var(--secndary-color);
+}
+
+header img {
+    margin: 0 0.25rem 0 1rem;
+	width: 84px;
+	height: auto;
+}
+
+header nav {
+    grid-column: 2/3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header li {
+    flex: 1 1 auto;
+}
+
+.history div{
+    display: flex;
+}
+
+.history h2 {
+    text-align: center;
+}
+
+.history img {
+    width: 350px;
+    height: auto;
+    ;
+}
+
+
+.adventures-section h2 {
+    text-align: center;
+}
+.adventures-grid {
+    display:  grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+
+}
+
+.adventures-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.adventures-grid img {
+  width: 100%;
+  height: auto;
+  
+}
+
+.adventures figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+footer nav {
+    display: flex;
+    gap: 1rem;
 }
