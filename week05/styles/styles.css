@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Merriweather", Georgia, serif;
+} 
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 1rem;
+    color: navy;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 /0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font: 1.3em;
+}
+
+label, input, button, select, textarea {
+    font-family: "Roboto"
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    
+}
+
+button {
+    margin: 1rem;
+    background: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: .8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1.5fr;
+    font-family: "Roboto";
+    justify-content: center;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.pet-label{
+    text-align: end;
+    padding-right: 20px;
+    
+}
+
+.text {
+    text-align: center;
+    padding-right: 65px;
+    padding-top: 20px;
+}
+
+button {
+    width: 25%;
+    margin: 0 auto;
+}

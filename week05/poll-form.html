@@ -4,40 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>WWD 130 | GEOFFREY ETU | HTML Form - User Poll</h1>
     </header>
     <main>
-        <fieldset>
-            <legend>Contact Information</legend>
-            <label for="fullname">Full Name:</label>
-            <input type="text" id="fullname" name="fullname">
-            <label for="email">Email:</label>
-            <input type="email" id="useremail" name="useremail">
-        </fieldset>
-        <fieldset>
-            <legend>Questions</legend>
-            <label for="browser">What is your favorite browser?</label>
-            <select id="browser" name="browser">
-                <option value="chrome">Chrome</option>
-                <option value="firefox">Firefox</option>
-                <option value="safari">Safari</option>
-                <option value="edge">Edge</option>
-                <option value="brave">Barve</option>
-                <option value="other">Other</option>
-            </select>
-            <labe for="pet">Do you have a pet?</labe>
-            <input type="checkbox" id="pet" name="pet">
-            <label for="feedback">List the places you have lived:</label>
-            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Armsterdam Netherland, Tibuktu Mali"></textarea>
-        </fieldset>
-        <button type="submit">Submit Poll</button>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <labe for="pet" class="pet-label">Do you have a household pet?</labe>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <label for="feedback" class="text">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Armsterdam Netherland, Tibuktu Mali"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
 
     </main>
     <footer>
-
+        <p>©️ 2025 | HTML Form - User Poll | Geoffrey Etu</p>
     </footer>
     
 </body>
