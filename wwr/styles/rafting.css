@@ -173,7 +173,7 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
+    border-top: 1px solid black;
 }
 footer nav {
     display: flex;
@@ -260,3 +260,182 @@ button {
 button:hover {
     background-color: #005fa3;
 }
+
+.hero-main img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero-main h1 {
+    top: 300px;
+    max-width: 95%;
+    color:#fff;
+    position: absolute;
+    font-size: 48px;
+    left: 430px;
+}
+
+.hero-tagline {
+    top: 350px;
+    font-size: 16px;
+    max-width: 80%;
+    color:#fff;
+    position: absolute;
+    left: 430px;
+}
+
+.newsletter-form {
+  font-family: 'Segoe UI', sans-serif; /* Or match your site’s main font */
+  background-color: #fff; /* Neutral base */
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  max-width: 500px;
+  margin: 2em auto;
+}
+
+.newsletter-form label {
+  display: block;
+  margin: 1.2em 0 0.3em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333; /* Adjust to match text theme */
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+.newsletter-form button {
+  margin-top: 1.5em;
+  padding: 0.75em 1.5em;
+  background-color: #05668D; /* Your accent color */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+  background-color: #028090;
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.grid-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+ 
+.cta-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin: 30px 0;
+
+}
+
+
+.cta-button {
+  display: inline-block;
+  padding: 1em 2em;
+  background-color: #0077cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cta-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 30px 0;
+}
+
+.offerings-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+.offerings-text {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.offerings-text h2 {
+  color: #005f73;
+  margin-bottom: 0.5rem;
+}
+
+.offerings-text h3 {
+  margin-top: 1.5rem;
+  color: #0a9396;
+}
+
+.offerings-text ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.offerings-images img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.trip-descriptions {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.trip {
+  flex: 1 1 30%;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.trip img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  max-height: 250px;
+}
+
+.trip-descriptions .third {
+    flex: 1 1 100%;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+ 
